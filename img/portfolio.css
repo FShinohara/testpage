@@ -1,0 +1,355 @@
+/* @media only screen and (max-width: 780px) {
+.vw80{
+width: 90vw;
+} */
+
+@media screen and (max-width: 1024px) {
+  
+    body {
+    background-color:#F9DF2C;
+    }
+    }
+
+
+
+/* PC,スマホ共通スタイル */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+#name {
+    font-size: 100px;
+    color: #F5F5F5;
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+.message-content {
+    font-size: 50px;
+}
+
+header {
+    width: 25%;
+    height: calc(100% - 100px);
+    background-color: #EFB111;
+    opacity: 0.8;
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    z-index: 10;
+    /* height: 70vh; */
+
+
+}
+
+.header-nav-list {
+    font-size: 40px;
+
+}
+
+.header-nav-item {
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.first-view {
+    background-image: url('img/tsunoshima.png');
+    height: 595px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-left: 30%;
+
+    background-color: rgba(255, 255, 255, 0.48);
+    background-blend-mode: lighten;
+
+    /* background-imageにはOpacityが適用されてる */
+}
+
+
+/* ↑背景画像のサイズが合ってる？ */
+
+.message {
+    font-size: 100%;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+
+/* ↑文字の大きさ変更できない */
+
+
+/* ２ページ目 */
+
+.section-ttl {
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+    border-bottom: solid 2px blue;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-weight: 100;
+    margin-top: 60px;
+
+}
+
+.second-view {
+    background: url(img/25859376_s.jpg);
+  
+    height: 595px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* padding-left: 350px; */
+    padding-left: 30%;
+    background-color: rgba(255, 255, 255, 0.48);
+    background-blend-mode: lighten;
+}
+
+
+.section-ttl::first-letter {
+    font-size: 38px;
+    color: blue;
+
+}
+
+#icon {
+    border-radius: 50%;
+    width: 240px;
+    height: 244px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+
+}
+
+#about {
+    position: relative;
+    /* background-color: #EFB111;
+    opacity: 0.48; */
+
+}
+
+
+#about>.introduct {
+    font-size: 100%;
+    padding-left: 100px;
+
+}
+
+#about>.flex {
+    display: flex;
+}
+
+/* ↑文字の位置のやり方あってるか？ */
+
+/* ３ページ目 */
+.third-view {
+    background: url(img/IMG_5214.png);
+    height: 595px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30%;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+
+}
+
+
+.concept-message {
+    text-align: left;
+    padding-left: 400px;
+    color: white;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+
+
+
+
+/* ４ページ目 */
+
+h3 {
+    font-weight: normal;
+    font-size: small;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 230px;
+    background-color: #F4D27B;
+
+}
+
+.workflow {
+    height: 500px;
+    padding-left: 30%;
+}
+
+.workflow-list {
+    display: flex;
+    margin-left: 15px;
+    text-align: center;
+
+
+
+}
+
+.step-content {
+
+
+    border: 1px solid #000;
+
+    height: 320px;
+    position: relative;
+    margin-top: 20px;
+    /* width: 98%; */
+
+}
+
+.step+.step {
+    margin-left: 30px;
+}
+
+.step-detail {
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.step {
+    font-size: x-small;
+    width: 30%;
+
+}
+
+.step:last-child{
+margin-right: 2%;
+}
+
+/* 擬似要素 */
+
+/* ５ページ目 */
+.skill {
+    padding-left: 30%;
+}
+
+.skill-list {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+.skill-item {
+    width: 50%;
+
+}
+.skill-img {
+text-align: center;
+}
+
+.skill-img.jQuery img{
+    width: 80%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.skill-img img {
+    width: 40%;
+    height: auto;
+}
+
+.skill-item2 {
+    text-align: center;
+}
+
+.achievement {
+    padding-left: 30%;
+}
+
+/* 6ページ目 */
+.viewmore-bottem {
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+.achievement-list {
+    display: flex;
+    width: 50px;
+    /* height: 50px; */
+    font-size: 20px;
+    padding-left: 30%;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+#achievement1 {
+    height: 400px;
+    width: 200px;
+
+}
+
+#achievement2 {
+    height: 400px;
+    width: 200px;
+}
+
+.achievement-text {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+#yazirushi {
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.contact {
+    padding-left: 30%;
+
+}
+
+/* 7ページ目 */
+.contact-content {
+    padding-left: 180px;
+}
+
+.mozi {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-detail {
+    padding-left: 130px;
+
+}
+
+.click {
+    padding-bottom: 100px;
+}
+
+#clickbutton {
+    padding-left: 45px;
+    margin-top: 30px;
+}
+
+
+.body2 {
+    background-color: #F4D27B;
+    opacity: 4.8;
+}
